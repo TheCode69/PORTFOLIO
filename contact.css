@@ -1,0 +1,108 @@
+/* Reset some default styles for consistent rendering */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font family */
+body {
+    background-color: #4eca73;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.header-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.header-image:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Style the projects section */
+#projects {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.icon-link {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.icon-link img {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-link:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
