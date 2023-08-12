@@ -69,6 +69,12 @@ a {
     margin-bottom: 50px;
 }
 
+#projects {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+}
 /* Style the footer */
 footer {
     text-align: center;
